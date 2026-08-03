@@ -82,6 +82,18 @@
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "VDC")
+	(net 3 "unconnected-(J1-Pin_3-Pad3)")
+	(net 4 "unconnected-(J1-Pin_3-Pad3)_1")
+	(net 5 "unconnected-(J2-Pin_3-Pad3)")
+	(net 6 "unconnected-(J2-Pin_3-Pad3)_1")
+	(net 7 "unconnected-(J3-Pin_3-Pad3)")
+	(net 8 "unconnected-(J3-Pin_3-Pad3)_1")
+	(net 9 "unconnected-(J4-Pin_3-Pad3)")
+	(net 10 "unconnected-(J4-Pin_3-Pad3)_1")
+	(net 11 "unconnected-(J5-Pin_3-Pad3)")
+	(net 12 "unconnected-(J5-Pin_3-Pad3)_1")
+	(net 13 "unconnected-(J6-Pin_3-Pad3)")
+	(net 14 "unconnected-(J6-Pin_3-Pad3)_1")
 	(footprint "PnP_Library:PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Right"
 		(layer "F.Cu")
 		(uuid "45b97877-3f14-48d3-b127-95a974e09f57")
@@ -553,7 +565,7 @@
 			(net 2 "VDC")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "6749fcf7-05e2-4a0d-a873-4d095c5231c5")
+			(uuid "ddc8b650-7633-4c82-a18e-c2c0f48d44e8")
 		)
 		(pad "2" smd rect
 			(at -1.65 -2.54 180)
@@ -575,7 +587,7 @@
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "6e807f7b-aca0-4fa2-99c4-c4a1ad5b4f58")
+			(uuid "eb723a13-3d3d-406a-bb2c-cbb6613eef80")
 		)
 		(pad "3" thru_hole roundrect
 			(at 0 0 180)
@@ -584,6 +596,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.2083333333)
+			(net 7 "unconnected-(J3-Pin_3-Pad3)")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
@@ -593,9 +606,10 @@
 			(at 1.65 0 180)
 			(size 1.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "unconnected-(J3-Pin_3-Pad3)_1")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
-			(uuid "18b30fb5-18e2-45f3-b056-2774add68d92")
+			(uuid "4a034bcd-2274-49d9-bdcf-32c91c4f4bf6")
 		)
 		(pad "4" smd rect
 			(at -1.65 2.54 180)
@@ -617,7 +631,7 @@
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "cce01bf9-6506-4e6b-a2fe-13fa1aa128ab")
+			(uuid "1fd99617-62a7-4706-9982-df9c873a4a4f")
 		)
 		(pad "5" thru_hole roundrect
 			(at 0 5.08 180)
@@ -639,7 +653,7 @@
 			(net 1 "GND")
 			(pinfunction "Pin_5")
 			(pintype "passive")
-			(uuid "c94b6fdc-7ff6-40a8-89fd-27e17b9147fd")
+			(uuid "a465ea30-d436-417b-9c5d-b0b593a2f5a7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Right.step"
@@ -1428,7 +1442,7 @@
 			(net 2 "VDC")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "3cee9206-c5eb-487b-8965-ced995b45654")
+			(uuid "df12944e-b500-45fa-94ab-0e7907a74968")
 		)
 		(pad "2" smd rect
 			(at -1.65 -2.54 180)
@@ -1450,7 +1464,7 @@
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "133ef4da-daf3-48d7-b279-4235c2a51ef2")
+			(uuid "dd665d64-730e-40cc-8ac7-061c9db9625f")
 		)
 		(pad "3" thru_hole roundrect
 			(at 0 0 180)
@@ -1459,6 +1473,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.2083333333)
+			(net 4 "unconnected-(J1-Pin_3-Pad3)_1")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
@@ -1468,9 +1483,10 @@
 			(at 1.65 0 180)
 			(size 1.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "unconnected-(J1-Pin_3-Pad3)")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
-			(uuid "f87fd157-e65e-479f-94eb-7ee7721a2c91")
+			(uuid "1453c91a-5d7b-4aa0-963a-192d294edf32")
 		)
 		(pad "4" smd rect
 			(at -1.65 2.54 180)
@@ -1492,7 +1508,7 @@
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "b4606101-6d26-438e-b688-9a7eb21c82a9")
+			(uuid "5464d878-e01d-4767-a89f-f084a3f8b9b3")
 		)
 		(pad "5" thru_hole roundrect
 			(at 0 5.08 180)
@@ -1514,7 +1530,7 @@
 			(net 1 "GND")
 			(pinfunction "Pin_5")
 			(pintype "passive")
-			(uuid "96ea16e1-b8cb-47e1-b0da-eff3dfc81efe")
+			(uuid "e06b655c-5b06-4b83-8a13-affcdd3b2485")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Right.step"
@@ -1535,7 +1551,7 @@
 		(at 161.2565 126.9 180)
 		(descr "surface-mounted straight socket strip, 1x05, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated")
 		(tags "Surface mounted socket strip SMD 1x05 2.54mm single row style1 pin1 left")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 0 -7.95 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1624,6 +1640,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/e694f06a-0efd-41c0-862b-d102a5fa667b")
+		(sheetname "/")
+		(sheetfile "PowerExtender_x2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.33 3.3)
@@ -1633,7 +1653,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "e7d6eb71-e3ad-4bbb-8eb3-cdfc34b724f5")
 		)
 		(fp_line
@@ -1644,7 +1663,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "8c8a8b0b-2b93-4bb0-b83c-0ebfa814f47a")
 		)
 		(fp_line
@@ -1655,7 +1673,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "df6c3c37-8565-48cf-b6fe-ec4e02fd657b")
 		)
 		(fp_line
@@ -1666,7 +1683,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "e31d59c1-d587-423c-8131-bc03ce9b490a")
 		)
 		(fp_line
@@ -1677,7 +1693,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "30d17adc-6bbf-4e7a-b7d4-ac8bfc03ef17")
 		)
 		(fp_line
@@ -1688,7 +1703,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "2ad00868-af3d-4a97-a316-573a5c98c0d0")
 		)
 		(fp_line
@@ -1699,7 +1713,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "aa2037e0-73d9-466f-9d6d-d112a382c798")
 		)
 		(fp_line
@@ -1710,7 +1723,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "086d6460-d67b-4784-bda2-164533a9e2b5")
 		)
 		(fp_line
@@ -1721,7 +1733,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "68d2fc84-f715-4fac-8a27-d78f9aa595f1")
 		)
 		(fp_line
@@ -1732,7 +1743,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "070ce65a-75d1-43fd-bbd9-9806469149dd")
 		)
 		(fp_line
@@ -1743,7 +1753,6 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(net 112)
 			(uuid "1dc382fb-26f9-4ba5-8cd3-0ac31c3e4d9b")
 		)
 		(fp_line
@@ -1754,7 +1763,6 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(net 112)
 			(uuid "9f84f2ef-9a27-4932-8dd3-d106e12173ea")
 		)
 		(fp_line
@@ -1765,7 +1773,6 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(net 112)
 			(uuid "c66d6123-6f75-4b4b-8c80-7a603a81abbd")
 		)
 		(fp_line
@@ -1776,7 +1783,6 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(net 112)
 			(uuid "6b92993c-8964-4a58-bdf9-260c801d31cd")
 		)
 		(fp_line
@@ -1787,7 +1793,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "22c9279d-91a0-4782-8021-e1c7d1d172cc")
 		)
 		(fp_line
@@ -1798,7 +1803,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "5b56d6a2-e576-4a32-b5bd-1b86565ebfeb")
 		)
 		(fp_line
@@ -1809,7 +1813,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "83d631f2-7e66-41e5-9611-4f03e9fc028b")
 		)
 		(fp_line
@@ -1820,7 +1823,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "106d3ffa-6e1d-4c42-8731-96e3d97e9166")
 		)
 		(fp_line
@@ -1831,7 +1833,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "d392faaf-7145-4bc5-b0d6-5ec9348593d0")
 		)
 		(fp_line
@@ -1842,7 +1843,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "5c317923-0ff7-40f9-9d1a-fef8e2e719aa")
 		)
 		(fp_line
@@ -1853,7 +1853,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "36e86f92-d492-46da-8e45-587140bb12bf")
 		)
 		(fp_line
@@ -1864,7 +1863,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "523dbb7d-218b-40fe-a258-cb61d9f04f50")
 		)
 		(fp_line
@@ -1875,7 +1873,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "ea0b4243-4c8d-4798-83a9-051821164ebc")
 		)
 		(fp_line
@@ -1886,7 +1883,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "68b39b26-b9da-457a-9de7-d09e8455fc42")
 		)
 		(fp_line
@@ -1897,7 +1893,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "2e2b8ca5-0ccd-4217-8a8e-0be750953adf")
 		)
 		(fp_line
@@ -1908,7 +1903,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "940fa3ce-0656-49c7-a2ff-d62a73d19ac4")
 		)
 		(fp_line
@@ -1919,7 +1913,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "d35a64a5-8871-4ab6-a4cd-822df1419284")
 		)
 		(fp_line
@@ -1930,7 +1923,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "c255e5e9-f52e-4758-bc1f-7407164f78fa")
 		)
 		(fp_line
@@ -1941,7 +1933,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "308b1268-ec7b-4e87-87eb-11455d751294")
 		)
 		(fp_line
@@ -1952,7 +1943,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "fee3fe18-2b10-4ff0-a8e6-e9bbbc9e03c1")
 		)
 		(fp_line
@@ -1963,7 +1953,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "ad54cb84-4bbf-4770-971b-a7f294ec2099")
 		)
 		(fp_line
@@ -1974,7 +1963,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "11f55bdb-79d0-494b-85ff-6f50309d3f13")
 		)
 		(fp_line
@@ -1985,7 +1973,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "05e58910-9eaf-4a39-a5ec-6da5969f4904")
 		)
 		(fp_line
@@ -1996,7 +1983,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "47a28a7d-2ab9-465b-9ec8-c12329f328cf")
 		)
 		(fp_text user "${REFERENCE}"
@@ -2058,6 +2044,7 @@
 			(at -1.65 0 180)
 			(size 1.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 14 "unconnected-(J6-Pin_3-Pad3)_1")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(uuid "9d2b6f5f-c1c9-40b2-81a2-d8814952b6ef")
@@ -2069,6 +2056,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.2083333333)
+			(net 13 "unconnected-(J6-Pin_3-Pad3)")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
@@ -2602,7 +2590,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "e6fb8ee4-9bb4-4d1e-a959-74a499b1b4ea")
+			(uuid "6314d549-2331-4093-9f2a-62022399573b")
 		)
 		(pad "2" thru_hole roundrect
 			(at 0 -2.54 180)
@@ -2624,12 +2612,13 @@
 			(net 1 "GND")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "3dfe81bd-172c-4a59-8d4b-af80f8d08181")
+			(uuid "c2174e80-1837-4fc7-89d6-2f473208be32")
 		)
 		(pad "3" smd rect
 			(at -1.65 0 180)
 			(size 1.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "unconnected-(J4-Pin_3-Pad3)")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(uuid "4c8e1f45-c06d-41bf-a037-5db53dc0777a")
@@ -2641,10 +2630,11 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.2083333333)
+			(net 10 "unconnected-(J4-Pin_3-Pad3)_1")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "4c8e1f45-c06d-41bf-a037-5db53dc0777a")
+			(uuid "85b150e4-4202-4749-8eec-18db1fc1b191")
 		)
 		(pad "4" thru_hole roundrect
 			(at 0 2.54 180)
@@ -2666,7 +2656,7 @@
 			(net 2 "VDC")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "975868f0-f382-407f-83d6-3fc44c5ca818")
+			(uuid "3beb1b2d-221b-4d22-bd27-5e61892578c6")
 		)
 		(pad "5" smd rect
 			(at -1.65 5.08 180)
@@ -2688,7 +2678,7 @@
 			(pinfunction "Pin_5")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "2100bbfa-8d85-457a-bf6e-639399623aa9")
+			(uuid "e1f697c6-9ec4-4b70-b14c-5da6db935441")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Left.step"
@@ -2810,7 +2800,7 @@
 		(at 141.256 126.9 180)
 		(descr "surface-mounted straight socket strip, 1x05, 2.54mm pitch, single row, style 2 (pin 1 right) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated")
 		(tags "Surface mounted socket strip SMD 1x05 2.54mm single row style2 pin1 right")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 0 -7.95 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2899,6 +2889,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/bb506b44-9bb1-4c3e-accc-aaed28f4e5e7")
+		(sheetname "/")
+		(sheetfile "PowerExtender_x2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.33 5.84)
@@ -2908,7 +2902,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "89b1449f-6d34-48f7-a567-223ccdcd85ad")
 		)
 		(fp_line
@@ -2919,7 +2912,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "d5506c4b-3b60-415b-872d-82cea6353103")
 		)
 		(fp_line
@@ -2930,7 +2922,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "eedd7752-d2cc-4dfc-a172-386e6e764f69")
 		)
 		(fp_line
@@ -2941,7 +2932,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "f9b73c57-ca10-47e5-ae19-09e3c94480af")
 		)
 		(fp_line
@@ -2952,7 +2942,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "1a85f24f-9db3-4e6c-90be-86b4e39f9b4e")
 		)
 		(fp_line
@@ -2963,7 +2952,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "bc7fc488-9233-477f-ab55-d4779e086f9b")
 		)
 		(fp_line
@@ -2974,7 +2962,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "6a3ac36a-5b22-4bf8-9198-f8adde9a829e")
 		)
 		(fp_line
@@ -2985,7 +2972,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "958a94ab-a111-42b4-bc35-db87e772cc42")
 		)
 		(fp_line
@@ -2996,7 +2982,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "4c71b30e-7ea2-4838-b82a-57d2912c8193")
 		)
 		(fp_line
@@ -3007,7 +2992,6 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(net 112)
 			(uuid "f5981b3b-e92c-47da-8aa8-4caf43a4f744")
 		)
 		(fp_line
@@ -3018,7 +3002,6 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(net 112)
 			(uuid "d0d06804-dbb1-4783-999e-25afc96db7f7")
 		)
 		(fp_line
@@ -3029,7 +3012,6 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(net 112)
 			(uuid "d02c7c3f-77d0-4b31-a4ed-dbda4302f664")
 		)
 		(fp_line
@@ -3040,7 +3022,6 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(net 112)
 			(uuid "4f39f025-3cca-4656-8751-c0cd2a9c7e53")
 		)
 		(fp_line
@@ -3051,7 +3032,6 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(net 112)
 			(uuid "1b47bd93-e360-4f00-935f-05f6350dd72f")
 		)
 		(fp_line
@@ -3062,7 +3042,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "8ba81bd6-6c3c-44de-86b4-9bc0a5865f3c")
 		)
 		(fp_line
@@ -3073,7 +3052,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "6512a8b9-287f-49aa-9ba6-eb0561766cd9")
 		)
 		(fp_line
@@ -3084,7 +3062,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "9693a8c7-c606-48ea-b891-0d28160427cd")
 		)
 		(fp_line
@@ -3095,7 +3072,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "69067c65-7dd6-4b5c-b66f-a2729c0ed529")
 		)
 		(fp_line
@@ -3106,7 +3082,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "8d73e6dc-8e29-49b9-a0e1-267066d69ddc")
 		)
 		(fp_line
@@ -3117,7 +3092,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "b72935ba-0b45-489b-abd8-5381c4f4df69")
 		)
 		(fp_line
@@ -3128,7 +3102,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "7049b79e-106f-4b47-9834-a3e22a261810")
 		)
 		(fp_line
@@ -3139,7 +3112,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "4979494d-afbb-45b4-960d-89e885a206c8")
 		)
 		(fp_line
@@ -3150,7 +3122,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "c43af83f-7167-4fc1-86ec-dad66a8f6a06")
 		)
 		(fp_line
@@ -3161,7 +3132,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "d3b26831-4423-4c72-a6c0-47e3768411c2")
 		)
 		(fp_line
@@ -3172,7 +3142,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "b3923142-6148-4c63-b71e-b3f73b8b43cc")
 		)
 		(fp_line
@@ -3183,7 +3152,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "6c3739d0-98b7-4d49-90ec-3200eabfdfc0")
 		)
 		(fp_line
@@ -3194,7 +3162,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "67eb4176-7ae6-4cb7-bd38-e8ac9652ae1d")
 		)
 		(fp_line
@@ -3205,7 +3172,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "7c0359af-6aa1-4c21-ac4a-829fa7dfd335")
 		)
 		(fp_line
@@ -3216,7 +3182,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "e75e84aa-c228-4f2e-ae85-e19910cdc070")
 		)
 		(fp_line
@@ -3227,7 +3192,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "07a5ab84-c5f8-46fe-8008-d91fce905d5e")
 		)
 		(fp_line
@@ -3238,7 +3202,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "99d4208e-e7df-412f-80c6-5e98e29877c4")
 		)
 		(fp_line
@@ -3249,7 +3212,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "57a44ebf-9759-42b8-ad76-1c2fdf01c445")
 		)
 		(fp_line
@@ -3260,7 +3222,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "a31d34d8-8803-4297-ac69-24611dc35c54")
 		)
 		(fp_line
@@ -3271,7 +3232,6 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(net 112)
 			(uuid "d9b2d804-be62-42fb-893f-26bd8b382df6")
 		)
 		(fp_text user "${REFERENCE}"
@@ -3336,6 +3296,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.2083333333)
+			(net 11 "unconnected-(J5-Pin_3-Pad3)")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
@@ -3345,6 +3306,7 @@
 			(at 1.65 0 180)
 			(size 1.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 12 "unconnected-(J5-Pin_3-Pad3)_1")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(uuid "97b5a8ac-1aac-4619-b834-c1cdbebf226e")
@@ -3877,7 +3839,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9f9adb83-5722-4d0d-833d-cd787808663f")
+			(uuid "a7a9c426-57eb-454c-b2ef-d6d03e703c71")
 		)
 		(pad "2" thru_hole roundrect
 			(at 0 -2.54 180)
@@ -3899,12 +3861,13 @@
 			(net 1 "GND")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "86488399-359b-4ae9-9c62-297e7956d821")
+			(uuid "d14a00c7-ea9c-48c9-8ec1-a17b0a6cd431")
 		)
 		(pad "3" smd rect
 			(at -1.65 0 180)
 			(size 1.9 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "unconnected-(J2-Pin_3-Pad3)")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(uuid "3997db29-0bd9-4b32-9dc3-27719f1fc058")
@@ -3916,10 +3879,11 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.2083333333)
+			(net 6 "unconnected-(J2-Pin_3-Pad3)_1")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "3997db29-0bd9-4b32-9dc3-27719f1fc058")
+			(uuid "9a28c8bb-9fd6-45b2-ba75-b596ccdca01b")
 		)
 		(pad "4" thru_hole roundrect
 			(at 0 2.54 180)
@@ -3941,7 +3905,7 @@
 			(net 2 "VDC")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "c2901ed9-f492-456c-b78e-13e19df38097")
+			(uuid "e30b2f32-bebf-4538-b39a-3c623f1dd644")
 		)
 		(pad "5" smd rect
 			(at -1.65 5.08 180)
@@ -3963,7 +3927,7 @@
 			(pinfunction "Pin_5")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "43829073-348c-467d-927c-9079a5d09047")
+			(uuid "5c983f6a-9098-4e02-b789-5abf46da6cac")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Left.step"
@@ -4051,8 +4015,8 @@
 		(layer "Edge.Cuts")
 		(uuid "7d7a9f6c-5fc5-41af-a62e-213938ede380")
 	)
-	(gr_text "VIN module"
-		(at 91.027144 119.3 0)
+	(gr_text "PnP Power Module"
+		(at 87.538358 119.3 0)
 		(layer "F.SilkS")
 		(uuid "3cd1a8f9-0ab3-4af8-8d91-398823b4a1f0")
 		(effects
@@ -4064,8 +4028,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VIN module"
-		(at 118.227144 119.3 0)
+	(gr_text "PnP Power Module"
+		(at 115.078358 119.3 0)
 		(layer "F.SilkS")
 		(uuid "e8b94431-d64f-4ca0-870e-596ef1197d24")
 		(effects
@@ -4077,8 +4041,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VIN module"
-		(at 145.768144 119.3 0)
+	(gr_text "PnP Power Module"
+		(at 142.619358 119.3 0)
 		(layer "F.SilkS")
 		(uuid "614cec5a-b92b-4b01-aaaf-fdd4082664f4")
 		(effects
